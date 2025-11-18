@@ -3,7 +3,7 @@ filename = Diamond
 all: compile run
 
 compile:
-	javac $(filename).java
+	javac $(filename)
 
 run:
 	java $(filename)
